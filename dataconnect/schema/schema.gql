@@ -1,0 +1,5 @@
+type Movie @table {
+  id: UUID! @default(expr: "uuidV4()")
+  title: String!
+  genre: String
+}
