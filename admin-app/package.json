@@ -11,6 +11,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "firebase-admin": "^12.7.0"
+    "firebase-admin": "^13.1.0"
   }
 }

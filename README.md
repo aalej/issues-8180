@@ -3,6 +3,7 @@
 ## Versions
 
 firebase-tools: v13.30.0<br>
+firebase-admin: v13.1.0<br>
 node: v22.13.1<br>
 platform: macOS Sonoma 14.7.2
 
@@ -35,3 +36,7 @@ FirebaseAppError: Error while making request: write EPROTO 808F8EEE01000000:erro
   codePrefix: 'app'
 }
 ```
+
+# Notes
+
+Changing `process.env.DATA_CONNECT_EMULATOR_HOST = "127.0.0.1:9399"` to `process.env.DATA_CONNECT_EMULATOR_HOST = "http://127.0.0.1:9399"`
